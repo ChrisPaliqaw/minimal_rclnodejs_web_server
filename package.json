@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "rclnodejs": "^0.21.1"
+  }
+}
