@@ -23,21 +23,15 @@ source /opt/ros/foxy/setup.bash
 ./minimal_rclnodejs_web_server/install_rclnodejs.sh
 ```
 
-## Now run
+## Now run the server
 Note that this script uses port 7000, which is what the The Construct reserves for web servers. Edit the script if needed.
-
-In Terminal #2
-```
-source /opt/ros/foxy/setup.bash
-ros2 topic echo /topic
-```
-Back in Terminal #1
 ```
 source /opt/ros/foxy/setup.bash
 node minimal_rclnodejs_web_server.js
 ```
-Terminal #3
+Terminal #2 (ROSject only)
 ```
 webpage_address
 ```
-Click on the link in Terminal #3
+Click on the link in Terminal #3. Note that if your terminal isn't wide enough, the address will have a line break and the link won't work correctly.
+But you can copy and paste into your web browser regardless.
