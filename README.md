@@ -1,5 +1,5 @@
 # minimal_rclnodejs_web_server
-A minimal example of a ROS2 node that publishes to a topic and acts as a web server.
+A minimal example of a ROS2 node that logs a message to /rosout and publishes a web page.
 
 The easiest way to try out this example is to make a ROS2 Foxy ROSject at https://app.theconstructsim.com/
 
